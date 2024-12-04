@@ -18,7 +18,7 @@ function StarRating({ rating }) {
 
   return (
     <div className="star-wrapper">
-      {range(rating).map((index) => (
+      {range(rating).map((star) => (
         <img
           key={crypto.randomUUID()}
           alt=""
